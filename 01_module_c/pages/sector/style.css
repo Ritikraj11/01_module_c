@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    margin: 20px;
+}
+.main-box{
+    width: 378px;
+    
+}
+#skill-img{
+    width: 320px;
+}
+.sectors{
+    border: 2px solid black;
+    margin: 2px;
+}
+.sector-card{
+    border: 2px solid black;
+    border: 5px;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px ;
+    margin: 10px;
+}
+.sector-card h4{
+    text-align: center;
+    font-size: 1.3em;
+    margin: 10px;
+}
+.sector-card p{
+    box-shadow: 1px 1px 1px 1px ;
+    margin: 10px;
+    padding: 10px;
+}
+.role-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.role-list-ul li{
+    margin: 10px;
+}
+.role-list h4{
+    margin: 0%;
+    font-size: 1.1em;
+}
+.head a{
+    cursor: pointer;
+}
+ button{
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+ }
+ .head{
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+ }
+ #role-plan{
+    width: 90px;
+    background-color: rgb(17 127 217);
+    border-radius: 20px;
+ }
+ #role-plan:hover{
+     background-color: rgb(7, 77, 135);
+ }
